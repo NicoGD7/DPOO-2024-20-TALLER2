@@ -443,7 +443,7 @@ public class SandboxArreglos
         int[] copia1 = Arrays.copyOf(this.arregloEnteros, this.arregloEnteros.length);
         int[] copia2 = Arrays.copyOf(otroArreglo, otroArreglo.length);
 
-        // Ordenamos ambas copias
+        
         Arrays.sort(copia1);
         Arrays.sort(copia2);
         
@@ -468,7 +468,7 @@ public class SandboxArreglos
      */
     public void generarEnteros( int cantidad, int minimo, int maximo )
     {
-	    	// Handle invalid parameters directly
+	    	
 	    if (cantidad <= 0) {
 	        System.out.println("La cantidad de elementos debe ser positiva.");
 	        return;
@@ -479,7 +479,7 @@ public class SandboxArreglos
 	        return;
 	    }
 	
-	    // Rest of the method remains the same
+	    
 	    arregloEnteros = new int[cantidad];
 	
 	    for (int i = 0; i < cantidad; i++) {
